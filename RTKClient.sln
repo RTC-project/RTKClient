@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RTKClient", "RTKClient\RTKClient.csproj", "{9B2D4B22-C46B-479C-9770-C966C5582DA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RTKClientLib", "RTKClientLib\RTKClientLib.csproj", "{4D3A99DB-C436-4553-A67B-D01A2FA08C9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B2D4B22-C46B-479C-9770-C966C5582DA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B2D4B22-C46B-479C-9770-C966C5582DA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B2D4B22-C46B-479C-9770-C966C5582DA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B2D4B22-C46B-479C-9770-C966C5582DA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D3A99DB-C436-4553-A67B-D01A2FA08C9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D3A99DB-C436-4553-A67B-D01A2FA08C9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D3A99DB-C436-4553-A67B-D01A2FA08C9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D3A99DB-C436-4553-A67B-D01A2FA08C9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D60D98C-1F1C-405D-BDEF-5B9542923956}
+	EndGlobalSection
+EndGlobal
