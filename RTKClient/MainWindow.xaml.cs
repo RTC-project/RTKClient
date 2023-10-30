@@ -234,7 +234,7 @@ namespace RTKClient
                 var lb = BitConverter.GetBytes(l);
                 var rb = BitConverter.GetBytes(r);
                 string str = $"r: {MathF.Round(r).ToString().PadLeft(4, '0')}, l: {MathF.Round(l).ToString().PadLeft(4, '0')}";
-                con.SendCommand(new byte[] { lb[0], lb[1], rb[0], rb[1], rb[0], rb[1], rb[0], rb[1], lb[0], lb[1], lb[0], lb[1], 10 });
+                con.SendCommand(new byte[] { rb[0], rb[1], lb[0], lb[1], rb[0], rb[1], lb[0], lb[1], lb[0], lb[1], rb[0], rb[1], 10 });
                 
                 last_l = l;
                 last_r = r;
